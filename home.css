@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: grey;
+}
+
+        .container 
+        {
+            width: 75%;
+            margin: auto;
+            margin-bottom: 15px;;
+            background-color: white;
+
+        }
+
+        h1{
+            border:2px solid black;
+            padding: 10px; 
+            display: flex;   
+            justify-content: center;                
+        }
+
+        .button-box
+        {
+            display: flex;
+            justify-content: space-around;
+            border:2px solid black;
+            
+            padding:10px;
+        }
+        .click
+        {
+            background-color: green;
+        //    padding: 10px 15px;
+            font-size:20px;
+            border-radius:10px;   
+        }
+
+        
+        .reset
+        {
+            background-color: red;
+            padding: 10px 15px;
+            font-size:20px;
+            border-radius:10px;   
+        }
+
+        .result  {
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            padding: 20px;
+            width: auto;
+        } 
+
+        .result h1
+        {
+            border: 1px solid black;
+        }
+
+     
+        .container-flex
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border:2px solid black;
+           // margin:10px;
+            padding: 10px;
+            min-height:15vh;
+        }
+
+
+    img{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 20px black;
+            margin: 10px;
+       }
+
+
+       img:hover
+       {
+        box-shadow: 0 0 20px red;
+           
+       }
+
+       #rps
+       {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border:2px solid black;
+        font-size: 25px;
+        align-items: center;
+    //    margin:10px;
+        padding: 10px;
+       }
+.heading
+    {
+        display: flex;
+        border: 2px solid black;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .heading h1
+    {
+        border: none;
+
+    }
+
+    .reload
+        {
+            background-color: red;
+            padding: 10px 15px;
+            font-size:20px;
+            border-radius:10px;   
+        }
+
+
+        .btn-box
+        {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            align-items: center;
+            border: 2px solid black;
+        }
+        
+        select
+        {
+            font-size: 20px;
+            width: 110px; 
+            height: 30px;
+        }
+
+        button
+        {
+            font-size: 20px;
+            padding: 10px 10px;
+        }
+        
+
+        .red-btn
+        {
+            background-color: red;
+        }
+
+        .green-btn
+        {
+            background-color: green;
+
+        }
+
+        .yellow-btn, .btn
+        {
+            background-color: yellow;
+        }
+
+        .blue-btn 
+        {
+            background-color: blue;
+            
+        }
+
+        p{
+         width: 50%;
+           padding: 10px 10px;
+        }
+
+        .class1
+        {
+            width: 100%;
+            //    background: cadetblue;
+            border: 2px solid black;
+            padding: 10px;
+         //   margin-bottom: 10px;
+        }
+
+        .testClass
+        {
+            width: 100%;
+        //    background-color: yellow;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .pcolor
+        {
+            color: red;
+        }

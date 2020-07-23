@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript </title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    
+</head>
+<body>
+
+    <!--Game 1  -->
+        <div class="container">
+            <h1>1. Age in days calculator</h1>
+                <div class="button-box">
+                <button onclick="ageInDays()" class="click" >Click Me</button>
+                <button class="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="result">
+                <h1 >
+                    <p id="resultInDays"></p>
+                </h1>
+            </div>
+    </div>
+
+    <!--Game 2  -->
+    
+    <div class="container">
+        <h1>2. Image Generator</h1>
+        <div class="button-box">
+            <button class="click" onclick="newImage()">Generate Image</button>
+            <button class="click" onclick="newtext()">add text</button>
+            <button class="click" onclick="newbold()">bold text</button>
+        </div>
+        <div class="container-flex" id="imggen">
+        </div>
+    </div>
+
+    <!--Game 3  -->
+
+    <div class="container">
+        <div class="heading">
+            <h1>3. Rock, Paper, Scissor</h1>
+            <button class="reload" onclick="location.reload()">reload</button>
+           </div>
+        <div class="container-flex" id="rps">
+           <div  id="rps-box"> 
+                <img src="/rock.png" id="rock" onclick="rpsGame(this)">
+                <img src="/paper.png" id="paper" onclick="rpsGame(this)">
+                <img src="/scissors.png" id="scissors" onclick="rpsGame(this)">
+            </div>
+        </div>
+        
+    </div>
+    
+    <!--Game 4  -->
+
+    <div class="container">
+        <h1>4. Buttom color change</h1>
+        
+            <form action="" >
+                <div class="btn-box">
+                    <select id="color" name="color" onchange="btncolorchange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="reset">reset</option>
+                </select>
+                <button class="red-btn">Instragram!</button>
+                <button class="green-btn">Yahoo!</button>
+                <button class="yellow-btn">Google!</button>
+                <button class="blue-btn">Facebook!</button>
+            </div>
+            </form>
+        
+    </div>
+    
+    <!--Game 5  -->
+
+
+    <div class="container">  
+        <h1>5. Mouse Hover</h1>
+        <div class="class1">
+            <button class="btn" id="button" onclick="clicked()"> click ne</button>
+            <p > this is the test javascript</p>
+            </div>
+        <div class="testClass" id="myclass">
+            <p id="ptext">this is the textclass</p>
+            
+        </div>
+
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
